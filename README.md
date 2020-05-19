@@ -12,6 +12,6 @@
 ![](result2.png)
 
 
-**Credits: Anis Koubaa**
+**Credit: Anis Koubaa**
 
 Link: https://www.youtube.com/watch?v=achgxjqOtiM&list=PLSzYQGCXRW1H8R2Bok_K8wcsE12_49alQ&index=13
