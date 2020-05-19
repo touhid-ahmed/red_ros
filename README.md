@@ -1,14 +1,17 @@
 # red_ros
-An object detection algorithm for red colored objects using color filtration method in openCV along with ROS.
+### This is an object detection project for detecting red colored objects through color segmentation using openCV and ROS. The CvBridge Library has been used for Image message conversion between OpenCV and ROS.
 
-1. The publisher node reads video from the webcam and publishes the frames on "red_topic"
+## **Brief Description of the python scipts:**
 
-2. The Subscriber node reads from the topic and applies color filtration technique along with contour detection to the frames and displays the output where any object in red is detected and a bounding rectangle is drawn around it.
+* The publisher node:* reads image data from the webcam and then converts it to ROS interpretable format. Finally the node publishes this image data on a custom topic. 
 
+* The Subscriber node:* Subscribes to the custom topic and reads the ROS image data which is then converted to OpenCV interpretable format. After that, color filtration technique is applied. Finally a contour is drawn on the image around the object in red color.
+
+## **Sample Output**
 ![](result1.png)
 ![](result2.png)
 
 
-Credits: Anis Koubaa
+**Credits: Anis Koubaa**
 
 Link: https://www.youtube.com/watch?v=achgxjqOtiM&list=PLSzYQGCXRW1H8R2Bok_K8wcsE12_49alQ&index=13
