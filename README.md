@@ -3,9 +3,9 @@
 
 ## **Brief Description of the python scipts:**
 
-* The publisher node:* reads image data from the webcam and then converts it to ROS interpretable format. Finally the node publishes this image data on a custom topic. 
+* The publisher node: reads image data from the webcam and then converts it to ROS interpretable format. Finally the node publishes this image data on a custom topic.
 
-* The Subscriber node:* Subscribes to the custom topic and reads the ROS image data which is then converted to OpenCV interpretable format. After that, color filtration technique is applied. Finally a contour is drawn on the image around the object in red color.
+* The Subscriber node: Subscribes to the custom topic and reads the ROS image data which is then converted to OpenCV interpretable format. After that, color filtration technique is applied. Finally a contour is drawn on the image around the object in red color.
 
 ## **Sample Output**
 ![](result1.png)
